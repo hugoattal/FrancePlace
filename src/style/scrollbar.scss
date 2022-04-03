@@ -1,0 +1,30 @@
+:root {
+    --scrollbar-width: 8px;
+}
+
+html {
+    scrollbar-color: var(--color-soft) var(--color-background-0);
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+
+    &:horizontal {
+        height: var(--scrollbar-width);
+    }
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-background-0);
+    border-radius: var(--length-radius-base);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-soft);
+    border-radius: 10px;
+
+    &:hover {
+        background: var(--color-content-litest);
+    }
+}

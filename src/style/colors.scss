@@ -1,0 +1,20 @@
+@mixin dark-theme {
+    --color-content: hsl(0, 0%, 100%);
+    --color-content-lite: hsl(0, 0%, 80%);
+    --color-content-liter: hsl(0, 0%, 50%);
+    --color-content-litest: hsl(0, 0%, 25%);
+
+    --color-background-0: #070910;
+    --color-background-1: #1d202f;
+    --color-background-2: #2a3049;
+}
+
+:root {
+    @include dark-theme;
+}
+html, button {
+}
+
+a {
+    color: inherit;
+}

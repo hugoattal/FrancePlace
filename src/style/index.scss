@@ -1,0 +1,49 @@
+@use "colors";
+@use "fonts";
+@use "lengths";
+@use "scrollbar";
+
+:root {
+    --duration-faster: 0.1s ease-in-out;
+    --duration-fast: 0.2s ease-in-out;
+    --duration-medium: 0.4s ease-in-out;
+
+    --transition-fast: color var(--duration-fast),
+    border-color var(--duration-fast),
+    border var(--duration-fast),
+    transform var(--duration-fast),
+    opacity var(--duration-fast),
+    margin var(--duration-fast),
+    box-shadow var(--duration-fast),
+    background var(--duration-fast),
+    text-shadow var(--duration-fast);
+}
+
+button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+*:focus-visible {
+    outline: none;
+}
+
+*::placeholder {
+    color: inherit;
+    opacity: 0.25;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    color: var(--color-content);
+    background: var(--color-primary);
+}
