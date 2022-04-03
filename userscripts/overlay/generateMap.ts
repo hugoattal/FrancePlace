@@ -45,7 +45,7 @@ type TColor = {
             height: outSize.y,
             width: outSize.x
         }
-    }).toFile(`${ __dirname }/output.png`);
+    }).toFile(`${ __dirname }/../../dist/overlay.png`);
 
 })().then(() => {
     console.log("Done!");
