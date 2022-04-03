@@ -54,7 +54,7 @@ type TMember = {
 const members: Array<TMember> = [
     {
         name: "Skew",
-        details: "Userscript et backend",
+        details: "Bot & Backend",
         image: "https://pbs.twimg.com/profile_images/1398028648733679621/jor6LHHn_400x400.jpg",
         socials: {
             github: "https://github.com/Skeeww",
@@ -63,7 +63,7 @@ const members: Array<TMember> = [
     },
     {
         name: "Herobrine",
-        details: "Landing page",
+        details: "Overlay & Landing page",
         image: "https://cdn.discordapp.com/avatars/148576018137874441/edfaeddd67ebcbc8a1094b8de987db01.webp",
         socials: {
             github: "https://github.com/hugoattal",
