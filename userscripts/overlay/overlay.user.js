@@ -12,7 +12,7 @@
 if (window.top !== window.self) {
     window.addEventListener("load", () => {
         const overlay = document.createElement("img");
-        overlay.src = "https://raw.githubusercontent.com/hugoattal/FrancePlace/main/userscripts/overlay/output.png";
+        overlay.src = `https://raw.githubusercontent.com/hugoattal/FrancePlace/main/userscripts/overlay/output.png?time=${ (new Date()).getTime().toString() }`;
         overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
 
         document.getElementsByTagName("mona-lisa-embed")[0]
