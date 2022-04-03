@@ -3,8 +3,11 @@
         <div class="tuto-wrapper">
             <h2>Installer le bot de r/FrancePlace</h2>
             <p>
-                Le discord a créé un bot qui permet de place automatiquement les pixels pour protéger le territoire <b>r/Français</b>.<br>
-                Pour l'utiliser, il vous suffira juste de garder un onglet r/place ouvert ! Voici comment l'installer.
+                Le discord a créé un bot qui permet de placer automatiquement les pixels afin de protéger le territoire <b>r/Français</b>.<br>
+                Pour l'utiliser, il vous suffit juste de garder un onglet <a
+                    href="https://www.reddit.com/r/place"
+                    target="_blank"
+                >r/place</a> ouvert ! Voici comment l'installer.
             </p>
             <h3>Télécharger l'extension userscript pour votre navigateur</h3>
             <p>
@@ -61,7 +64,25 @@
             </p>
             <h3>C'est terminé !</h3>
             <p>
-                Vous n'avez plus qu'à laisser un (et un seul) onglet ouvert sur r/place. Vous devrez voir des notifications apparaitre si le bot fonctionne.
+                Vous n'avez plus qu'à laisser un (et un seul) onglet ouvert sur <a
+                    href="https://www.reddit.com/r/place"
+                    target="_blank"
+                >r/place</a>. Vous devrez voir des notifications apparaitre si le bot fonctionne.
+            </p>
+            <p class="buttons">
+                <a
+                    class="button"
+                    href="https://raw.githubusercontent.com/Skeeww/Bot/master/placenlbot.user.js"
+                    target="_blank"
+                >
+                    <span class="icon">
+                        <FontAwesomeIcon :icon="['fab', 'reddit']" />
+                    </span>
+                    <span class="text">
+                        r/place
+                        <span class="browser">(on Reddit)</span>
+                    </span>
+                </a>
             </p>
         </div>
     </div>
@@ -84,6 +105,16 @@ export default {
     padding: var(--length-padding-l) 128px;
     box-sizing: border-box;
     font-size: 1.2rem;
+
+    a {
+        color: var(--color-background-4);
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 
     .tuto-wrapper {
         //background: var(--color-background-1);
@@ -116,23 +147,24 @@ export default {
     }
 
     .button {
-        width: 256px;
+        width: 280px;
         text-decoration: none;
         color: var(--color-content);
         display: flex;
         align-items: center;
-        justify-content: center;
         background: var(--color-background-3);
         border: 4px solid var(--color-background-4);
         border-radius: var(--length-radius-l);
-        padding: var(--length-padding-xs) var(--length-padding-m);
+        padding: var(--length-padding-xs) var(--length-padding-l);
         gap: var(--length-gap-m);
+        box-sizing: border-box;
 
         transition: var(--transition-fast), transform var(--duration-fast);
 
         &:hover {
             transform: translateY(-8px);
             box-shadow: 0 8px 32px var(--color-background-0);
+            text-decoration: none;
         }
 
         .icon {
