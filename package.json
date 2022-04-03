@@ -1,0 +1,36 @@
+{
+    "name": "place-france",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.1.1",
+        "@fortawesome/free-brands-svg-icons": "^6.1.1",
+        "@fortawesome/free-regular-svg-icons": "^6.1.1",
+        "@fortawesome/free-solid-svg-icons": "^6.1.1",
+        "@fortawesome/vue-fontawesome": "^3.0.0-4",
+        "vue": "^3.2.31"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.17.0",
+        "@typescript-eslint/parser": "^5.17.0",
+        "@vue/eslint-config-typescript": "^10.0.0",
+        "@vitejs/plugin-vue": "^2.3.1",
+        "typescript": "^4.6.3",
+        "vite": "^2.9.1",
+        "vue-tsc": "^0.33.9",
+        "eslint": "^8.12.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-import-resolver-typescript": "^2.7.1",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-sort-keys-custom-order": "^1.0.1",
+        "eslint-plugin-vue": "^8.5.0",
+        "sass": "^1.49.11"
+    }
+}
