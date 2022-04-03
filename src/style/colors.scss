@@ -1,12 +1,14 @@
 @mixin dark-theme {
     --color-content: hsl(0, 0%, 100%);
-    --color-content-lite: hsl(0, 0%, 80%);
-    --color-content-liter: hsl(0, 0%, 50%);
-    --color-content-litest: hsl(0, 0%, 25%);
+    --color-content-lite: hsla(0, 0%, 100%,80%);
+    --color-content-liter: hsla(0, 0%, 100%,50%);
+    --color-content-litest: hsla(0, 0%,100%, 25%);
 
     --color-background-0: #070910;
     --color-background-1: #1d202f;
     --color-background-2: #2a3049;
+    --color-background-3: #434f80;
+    --color-background-4: #5a6aaf;
 }
 
 :root {

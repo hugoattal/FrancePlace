@@ -18,11 +18,10 @@ import PTuto from "@/components/content/PTuto.vue";
 .html, body {
     color: var(--color-content);
     margin: 0;
-    background: radial-gradient(circle at center 180%, var(--color-background-2) 0%, var(--color-background-1) 60%, var(--color-background-0) 90%);
+    background: radial-gradient(circle at center 180%, var(--color-background-2) 0%, var(--color-background-1) 60%, var(--color-background-0) 90%) fixed;
     height: 100vh;
     overflow-y: auto;
 }
-
 
 .app {
     height: 90vh;
