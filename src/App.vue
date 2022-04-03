@@ -23,10 +23,10 @@ import PFooter from "@/components/design/PFooter.vue";
     background: radial-gradient(circle at center 180%, var(--color-background-2) 0%, var(--color-background-1) 60%, var(--color-background-0) 90%) fixed;
     height: 100vh;
     overflow-y: auto;
+    width: 100vw;
 }
 
 .app {
-    height: 90vh;
     display: flex;
     align-items: center;
     flex-direction: column;

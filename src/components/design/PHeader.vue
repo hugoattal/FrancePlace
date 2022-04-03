@@ -28,7 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: var(--length-padding-xxl);
+    padding-top: var(--length-padding-xxl);
     padding-bottom: var(--length-padding-l);
 
     .title-wrapper {
