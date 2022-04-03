@@ -3,11 +3,11 @@
         <div class="tuto-wrapper">
             <h2>Installer le bot de r/FrancePlace</h2>
             <p>
-                Le discord a créé un bot qui permet de placer automatiquement les pixels afin de protéger le territoire <b>r/Français</b>.<br>
-                Pour l'utiliser, il vous suffit juste de garder un onglet <a
+                Le discord a créé deux scripts pour mieux s'organiser afin de protéger le territoire <b>r/Français</b>.<br>
+                Pour l'utiliser, il vous suffit juste d'ouvrir un onglet <a
                     href="https://www.reddit.com/r/place"
                     target="_blank"
-                >r/place</a> ouvert ! Voici comment l'installer.
+                >r/place</a> ! Voici comment les installer.
             </p>
             <h3>Télécharger l'extension userscript pour votre navigateur</h3>
             <p>
@@ -47,6 +47,13 @@
                 Rendez-vous simplement sur le lien ci-dessous. Votre extension userscript devrait vous demandez si vous souhaitez l'installer.<br>
                 Si rien ne s'affiche, vous pouvez toujours l'installer manuellement en copiant le texte du userscript et en le collant dans votre extension.
             </p>
+            <p>
+                Deux scripts sont disponibles :
+                <ul>
+                    <li><b>placenlbot.user.js</b> - Bot qui place tout seul les pixels</li>
+                    <li><b>overlay.user.js</b> - Overlay qui se rajoute sur la carte</li>
+                </ul>
+            </p>
             <p class="buttons">
                 <a
                     class="button"
@@ -58,6 +65,19 @@
                     </span>
                     <span class="text">
                         placenlbot.user.js
+                        <span class="browser">(on GitHub)</span>
+                    </span>
+                </a>
+                <a
+                    class="button"
+                    href="https://github.com/hugoattal/FrancePlace/raw/main/userscripts/overlay/overlay.user.js"
+                    target="_blank"
+                >
+                    <span class="icon">
+                        <FontAwesomeIcon icon="download" />
+                    </span>
+                    <span class="text">
+                        overlay.user.js
                         <span class="browser">(on GitHub)</span>
                     </span>
                 </a>

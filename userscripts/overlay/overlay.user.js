@@ -15,7 +15,10 @@ if (window.top !== window.self) {
         overlay.src = "https://raw.githubusercontent.com/hugoattal/FrancePlace/main/userscripts/overlay/output.png";
         overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
 
-        document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(overlay);
+        document.getElementsByTagName("mona-lisa-embed")[0]
+            .shadowRoot.children[0]
+            .getElementsByTagName("mona-lisa-canvas")[0]
+            .shadowRoot.children[0]
+            .appendChild(overlay);
     }, false);
 }
-
