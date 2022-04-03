@@ -13,7 +13,7 @@ if (window.top !== window.self) {
     window.addEventListener("load", () => {
         const overlay = document.createElement("img");
         overlay.src = `https://place.luna-park.fr/overlay.png?time=${ (new Date()).getTime().toString() }`;
-        overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
+        overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
 
         document.getElementsByTagName("mona-lisa-embed")[0]
             .shadowRoot.children[0]
