@@ -3,6 +3,7 @@
         <PHeader />
         <PButtons />
         <PTuto />
+        <PFooter />
     </div>
 </template>
 
@@ -10,6 +11,7 @@
 import PHeader from "@/components/design/PHeader.vue";
 import PButtons from "@/components/content/PButtons.vue";
 import PTuto from "@/components/content/PTuto.vue";
+import PFooter from "@/components/content/PFooter.vue";
 </script>
 
 <style lang="scss">

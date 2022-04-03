@@ -72,7 +72,7 @@
             <p class="buttons">
                 <a
                     class="button"
-                    href="https://raw.githubusercontent.com/Skeeww/Bot/master/placenlbot.user.js"
+                    href="https://www.reddit.com/r/place/"
                     target="_blank"
                 >
                     <span class="icon">
