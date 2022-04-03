@@ -52,6 +52,7 @@ export default {
     gap: var(--length-gap-m);
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
     a {
         text-decoration: none;

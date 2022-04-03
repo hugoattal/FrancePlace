@@ -29,6 +29,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: var(--length-padding-xxl);
+    padding-bottom: var(--length-padding-l);
 
     .title-wrapper {
         display: flex;
@@ -44,6 +45,10 @@ header {
             font-weight: 600;
             font-size: 4rem;
             text-shadow: 0 0 32px var(--color-primary);
+
+            @media (max-width: 480px) {
+                font-size: 3rem;
+            }
         }
 
         .flag {

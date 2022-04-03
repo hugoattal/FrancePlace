@@ -106,6 +106,10 @@ export default {
     box-sizing: border-box;
     font-size: 1.2rem;
 
+    @media (max-width: 980px) {
+        padding: var(--length-padding-l) 32px;
+    }
+
     a {
         color: var(--color-background-4);
         text-decoration: none;
@@ -144,6 +148,7 @@ export default {
     .buttons {
         display: flex;
         gap: var(--length-gap-m);
+        flex-wrap: wrap;
     }
 
     .button {

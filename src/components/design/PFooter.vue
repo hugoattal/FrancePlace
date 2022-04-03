@@ -88,6 +88,8 @@ const members: Array<TMember> = [
     .team {
         display: flex;
         gap: var(--length-gap-m);
+        flex-wrap: wrap;
+        justify-content: center;
 
         .member {
             display: flex;
