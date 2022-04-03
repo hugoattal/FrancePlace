@@ -24,7 +24,7 @@
                             target="_blank"
                         ><FontAwesomeIcon :icon="['fab', 'github']" /></a>
                         <a
-                            :href="member.socials.github"
+                            :href="member.socials.twitter"
                             target="_blank"
                         ><FontAwesomeIcon :icon="['fab', 'twitter']" /></a>
                     </div>
