@@ -28,6 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: var(--length-padding-xxl);
 
     .title-wrapper {
         display: flex;

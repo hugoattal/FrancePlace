@@ -48,7 +48,7 @@ export default {
         font-size: 1.5rem;
         width: 256px;
         height: 48px;
-        border-radius: var(--length-radius-base);
+        border-radius: var(--length-radius-l);
         border: 4px solid;
         transition: var(--transition-fast), transform var(--duration-fast);
 
