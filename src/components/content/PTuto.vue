@@ -64,7 +64,7 @@
                     target="_blank"
                 >
                     <span class="icon">
-                        <FontAwesomeIcon icon="download" />
+                        <FontAwesomeIcon icon="palette" />
                     </span>
                     <span class="text">
                         overlay.user.js
@@ -77,7 +77,7 @@
                     target="_blank"
                 >
                     <span class="icon">
-                        <FontAwesomeIcon icon="download" />
+                        <FontAwesomeIcon icon="robot" />
                     </span>
                     <span class="text">
                         placenlbot.user.js
