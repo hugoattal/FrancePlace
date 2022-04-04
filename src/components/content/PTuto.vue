@@ -12,7 +12,7 @@
             <h3>Télécharger l'extension userscript pour votre navigateur</h3>
             <p>
                 La première étape est de télécharger une extension qui va permettre l'exécution du script sur r/place.<br>
-                Vous devez utiliser <b>Tampermonkey</b> sur Chrome, ou <b>Violentmonkey</b> sur Firefox.
+                Vous devez utiliser <b>Tampermonkey</b> sur Chrome ou Opera, ou <b>Violentmonkey</b> sur Firefox.
             </p>
             <p class="buttons">
                 <a
@@ -39,6 +39,19 @@
                     <span class="text">
                         Violentmonkey
                         <span class="browser">(Firefox)</span>
+                    </span>
+                </a>
+                <a
+                    class="button"
+                    href="https://addons.opera.com/en/extensions/details/tampermonkey-beta/"
+                    target="_blank"
+                >
+                    <span class="icon">
+                        <FontAwesomeIcon :icon="['fab', 'opera']" />
+                    </span>
+                    <span class="text">
+                        Tampermonkey
+                        <span class="browser">(Opera)</span>
                     </span>
                 </a>
             </p>
