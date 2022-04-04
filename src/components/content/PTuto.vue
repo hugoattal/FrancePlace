@@ -50,11 +50,8 @@
             <p>
                 Deux scripts sont disponibles :
                 <ul>
+                    <li><b>overlay.user.js</b> - Overlay qui se rajoute sur la carte </li>
                     <li><b>placenlbot.user.js</b> - Bot qui place tout seul les pixels</li>
-                    <li>
-                        <b>overlay.user.js</b> - Overlay qui se rajoute sur la carte
-                        <span class="warning">(<FontAwesomeIcon icon="warning" /> Ne fonctionne pas sur Firefox)</span>
-                    </li>
                 </ul>
             </p>
             <p class="buttons">
