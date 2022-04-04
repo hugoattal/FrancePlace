@@ -70,7 +70,7 @@
                 </a>
                 <a
                     class="button"
-                    href="https://github.com/Alabate/Bot/raw/placenl-patches-23/placenlbot.user.js"
+                    href="https://github.com/Skeeww/Bot/raw/master/placenlbot.user.js"
                     target="_blank"
                 >
                     <span class="icon">
