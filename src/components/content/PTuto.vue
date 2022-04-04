@@ -84,19 +84,6 @@
                         <span class="browser">New (on GitHub)</span>
                     </span>
                 </a>
-                <a
-                    class="button"
-                    href="https://raw.githubusercontent.com/Skeeww/Bot/master/placenlbot.user.js"
-                    target="_blank"
-                >
-                    <span class="icon">
-                        <FontAwesomeIcon icon="download" />
-                    </span>
-                    <span class="text">
-                        placenlbot.user.js
-                        <span class="browser">Old (on GitHub)</span>
-                    </span>
-                </a>
             </p>
             <h3>C'est terminé !</h3>
             <p>

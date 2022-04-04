@@ -20,10 +20,12 @@
                     </div>
                     <div class="socials">
                         <a
+                            v-if="member.socials.github"
                             :href="member.socials.github"
                             target="_blank"
                         ><FontAwesomeIcon :icon="['fab', 'github']" /></a>
                         <a
+                            v-if="member.socials.twitter"
                             :href="member.socials.twitter"
                             target="_blank"
                         ><FontAwesomeIcon :icon="['fab', 'twitter']" /></a>
@@ -46,12 +48,21 @@ type TMember = {
     details: string;
     image: string;
     socials: {
-        github: string;
-        twitter: string;
+        github?: string;
+        twitter?: string;
     };
 }
 
 const members: Array<TMember> = [
+    {
+        name: "Herobrine",
+        details: "Overlay & Landing page",
+        image: "https://cdn.discordapp.com/avatars/148576018137874441/edfaeddd67ebcbc8a1094b8de987db01.webp",
+        socials: {
+            github: "https://github.com/hugoattal",
+            twitter: "https://twitter.com/hugoattal"
+        }
+    },
     {
         name: "Skew",
         details: "Bot & Backend",
@@ -62,12 +73,11 @@ const members: Array<TMember> = [
         }
     },
     {
-        name: "Herobrine",
-        details: "Overlay & Landing page",
-        image: "https://cdn.discordapp.com/avatars/148576018137874441/edfaeddd67ebcbc8a1094b8de987db01.webp",
+        name: "Alabate",
+        details: "Bot update",
+        image: "https://avatars.githubusercontent.com/u/6835111?v=4",
         socials: {
-            github: "https://github.com/hugoattal",
-            twitter: "https://twitter.com/hugoattal"
+            github: "https://github.com/Alabate"
         }
     }
 ];
