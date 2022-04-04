@@ -79,6 +79,24 @@ const members: Array<TMember> = [
         socials: {
             github: "https://github.com/Alabate"
         }
+    },
+    {
+        name: "Folfy Blue",
+        details: "Bot side server",
+        image: "https://avatars.githubusercontent.com/u/24195176?v=4",
+        socials: {
+            github: "https://github.com/FolfyBlue",
+            twitter: "https://twitter.com/folfy_blue"
+        }
+    },
+    {
+        name: "Weimdall",
+        details: "Bot side server",
+        image: "https://avatars.githubusercontent.com/u/7267440?v=4",
+        socials: {
+            github: "https://github.com/Weimdall",
+            twitter: "https://twitter.com/weimdall"
+        }
     }
 ];
 </script>
@@ -100,6 +118,7 @@ const members: Array<TMember> = [
         gap: var(--length-gap-m);
         flex-wrap: wrap;
         justify-content: center;
+        max-width: 980px;
 
         .member {
             display: flex;
